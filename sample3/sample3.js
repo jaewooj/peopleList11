@@ -12,7 +12,8 @@ export const showImgList = (objImg,idx) => {
 }
 
 
-export function likeInit(){
+export const likeInit = () =>{
+    let likeBtn = document.querySelectorAll('#wrap ul li i')
     likeBtn.forEach(item=>{
         item.classList.replace('xi-heart','xi-heart-o')
         item.style.color='black';
