@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">  
+    <style>
+        #wrap {
+            width: 500px;
+            margin: 80px auto;
+        }
+        #wrap .btn {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        #wrap .btn button {
+            width: 200px;
+            height: 60px;
+            background: #fff;
+            border: 1px solid #000;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        #wrap ul {
+            display: none;
+        }
+        #wrap ul li {
+            border: 2px solid rgb(226, 226, 226);
+            display: flex;
+            position: relative;
+        }
+        #wrap ul .employee {
+            margin-bottom: 20px;
+        }
+        #wrap ul.on {
+            display: block;
+        }
+        #wrap ul li img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50% 50%;
+            margin: 20px;
+            margin-right: 40px;
+        }
+        #wrap ul li ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 25px 0;
+            margin-left: 5px;
+        }
+        #wrap ul li ul li {
+            border: none;
+            font-size: 20px;
+        }
+        #wrap ul li i {
+            font-size: 50px;
+            position: absolute;
+            right: 10%;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="btn">
+            <button class="delete">명단삭제</button>
+            <button class="view">명단보기</button>
+        </div>
+        <ul class="list">
+            <li class="employee">
+                <img src="" alt="">
+                <ul class="employeeInfo">
+                </ul>
+                <i class="xi-heart-o"></i>
+            </li>
+            <li class="employee">
+                <img src="" alt="">
+                <ul class="employeeInfo">
+                </ul>
+                <i class="xi-heart-o"></i>
+            </li>
+            <li class="employee">
+                <img src="" alt="">
+                <ul class="employeeInfo">
+                </ul>
+                <i class="xi-heart-o"></i>
+            </li>
+            <li class="employee">
+                <img src="" alt="">
+                <ul class="employeeInfo">
+                </ul class="employeeInfo">
+                <i class="xi-heart-o"></i>
+            </li>
+            <li class="employee">
+                <img src="" alt="">
+                <ul class="employeeInfo">
+                </ul>
+                <i class="xi-heart-o"></i>
+            </li>
+            <li class="employee">
+                <img src="" alt="">
+                <ul class="employeeInfo">
+                </ul>
+                <i class="xi-heart-o"></i>
+            </li>            
+        </ul>
+    </div>
+
+    <script type="module"  src="./sample4/sample4.js">
+
+        
+    </script>     
+</body>
+</html>
